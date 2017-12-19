@@ -1,5 +1,5 @@
 {
-  "name": "testheroku",
+  "name": "app",
   "private": true,
   "dependencies": {}
 }

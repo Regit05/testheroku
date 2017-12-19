@@ -1,0 +1,19 @@
+<img width="400px" src="<%= @admin.image_url %>">
+
+
+<p>
+  <strong>Title:</strong>
+  <%= @admin.title %>
+</p>
+
+<p>
+  <strong>Text:</strong>
+  <%= @admin.text %>
+</p>
+
+<h2>Comments</h2>
+<%= render @admin.comments %>
+
+
+<%= link_to 'Edit', edit_article_path(@admin) %> |
+<%= link_to 'Back', admins_path %>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Testheroku</title>
+    <title>App</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +9,13 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div>
+        <%= yield %>
+    </div>
+
+    <div>
+        <%= link_to 'A propos', informations_a_propos_path %> |
+        <%= link_to 'CGU', informations_cgu_path %>
+    </div>
   </body>
 </html>

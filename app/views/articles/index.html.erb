@@ -1,0 +1,10 @@
+<h1>Listing Article</h1>
+<table>
+  <% @articles.each do |article| %>
+    <tr>
+      <td><p><%= article.title %></p>
+      <img height="100px" src="<%= article.image_url %>"></td>
+      <td><%= link_to 'show', article_path(article) %></td>
+  <% end %>
+
+</table>

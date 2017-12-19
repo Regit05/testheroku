@@ -1,3 +1,19 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+  background: url("http://st.gde-fon.com/wallpapers_original/541421_tigr_3d_art_1280x1318_www.Gde-Fon.com.jpg");
+  -webkit-background-size:auto auto;
+  background-size: auto 100vh;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: center top;
+}
+
+body>*{
+  background-color: rgba(255,255,255,0.7);
+  padding:10px;
+  color: #000;
+  margin-bottom: 10px;
+}
